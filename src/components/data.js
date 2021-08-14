@@ -4,43 +4,43 @@ export const recipes = [
         name: "Vegan Spinach Bites",
         ingredients: [
             {
-                item: "Potatoes",
+                item: 1,
                 measurement: "1 pound"
             },
             {
-                item: "Spinach",
+                item: 2,
                 measurement: "2 bunches"
             },
             {
-                item: "Canola Oil",
+                item: 3,
                 measurement: "2 tablespoons"
             },
             {
-                item: "Onions",
+                item: 44,
                 measurement: "1 count"
             },
             {
-                item: "Garlic",
+                item: 5,
                 measurement: "3 cloves"
             },
             {
-                item: "Water",
+                item: 6,
                 measurement: "3 tablespoons"
             },
             {
-                item: "Flaxseed Meal",
+                item: 7,
                 measurement: "1 tablespoon"
             },
             {
-                item: "Baking Powder",
+                item: 8,
                 measurement: "1 teaspoon"
             },
             {
-                item: "Salt",
+                item: 9,
                 measurement: "1/2 teaspoon"
             },
             {
-                item: "All-Purpose Flour",
+                item: 10,
                 measurement: "1/4 cup"
             }
         ],
@@ -104,75 +104,75 @@ export const recipes = [
         name: "Pad Kee Mow",
         ingredients: [
             {
-                item: "Rice Vinegar",
+                item: 11,
                 measurement: "1/4 cup"
             },
             {
-                item: "Fish Sauce",
+                item: 12,
                 measurement: "1/4 cup"
             },
             {
-                item: "Lime",
+                item: 13,
                 measurement: "1/2 count"
             },
             {
-                item: "Palm Sugar",
+                item: 14,
                 measurement: "1 tablespoon"
             },
             {
-                item: "Red Pepper Flakes",
+                item: 15,
                 measurement: "1 tablespoon"
             },
             {
-                item: "Black Pepper",
+                item: 16,
                 measurement: "1 teaspoon"
             },
             {
-                item: "Chicken Breast (Boneless, Skinless)",
+                item: 17,
                 measurement: "2 breast halves"
             },
             {
-                item: "Fresh Rice Noodles",
+                item: 18,
                 measurement: "16 ounces"
             },
             {
-                item: "Warm Water",
+                item: 6,
                 measurement: "As needed"
             },
             {
-                item: "Vegetable Oil",
+                item: 19,
                 measurement: "3 tablespoons"
             },
             {
-                item: "Garlic",
+                item: 5,
                 measurement: "4 cloves"
             },
             {
-                item: "Yellow Onion",
+                item: 20,
                 measurement: "1/2 count"
             },
             {
-                item: "Oyster Sauce",
+                item: 21,
                 measurement: "1/2 cup"
             },
             {
-                item: "Soy Sauce",
+                item: 22,
                 measurement: "2 tablespoons"
             },
             {
-                item: "Red Bell Pepper",
+                item: 23,
                 measurement: "1 count"
             },
             {
-                item: "Tomatoes",
+                item: 24,
                 measurement: "2 count (small)"
             },
             {
-                item: "Green Onions",
+                item: 25,
                 measurement: "4 count"
             },
             {
-                item: "Basil (Thai)",
+                item: 26,
                 measurement: "2 cups"
             }
         ],
@@ -219,59 +219,59 @@ export const recipes = [
         name: "Keema Aloo (Ground beef and Potatoes)" ,
         ingredients: [
             {
-                item: "Extra-virgin olive oil",
+                item: 27,
                 measurement: "2 tablespoons"
             },
             {
-                item: "Spanish onion",
+                item: 28,
                 measurement: "1 extra large, chopped"
             },
             {
-                item: "Lean ground beef",
+                item: 29,
                 measurement: "2 pounds"
             },
             {
-                item: "Garlic",
+                item: 5,
                 measurement: "4 cloves, minced"
             },
             {
-                item: "Ginger root",
+                item: 31,
                 measurement: "2 tablespoon, freshly grated"
             },
             {
-                item: "Serrano chile pepper",
+                item: 32,
                 measurement: "1 pepper, finely chopped"
             },
             {
-                item: "Cilantro",
+                item: 33,
                 measurement: "2 teaspoons, finely chopped"
             },
             {
-                item: "Ground cumin",
+                item: 34,
                 measurement: "1 tablespoon"
             },
             {
-                item: "Ground cayenne pepper",
+                item: 35,
                 measurement: "1 teaspoon"
             },
             {
-                item: "Ground turmeric",
+                item: 36,
                 measurement: "1 teaspoon"
             },
             {
-                item: "Diced tomatoes",
+                item: 24,
                 measurement: "1 can (28 ounces)"
             },
             {
-                item: "Potatoes",
+                item: 1,
                 measurement: "3, peeled and diced"
             },
             {
-                item: "Green peas",
+                item: 37,
                 measurement: "1 cup, frozen"
             },
             {
-                item: "Garam Masala",
+                item: 38,
                 measurement: "1 teaspoon"
             }
         ],
@@ -310,19 +310,19 @@ export const recipes = [
         name: "Bucatini Cacio e Pepe (Roman sheep herder's Pasta",
         ingredients: [
             {
-                item: "Bucatini",
+                item: 39,
                 measurement: "1 pound, dry"
             },
             {
-                item: "Pecorino Romano cheese",
+                item: 40,
                 measurement: "2 cups, finely grated"
             },
             {
-                item: "Black pepper",
+                item: 16,
                 measurement: "1 1/2 tablespoon, freshly ground"
             },
             {
-                item: "Salt",
+                item: 9,
                 measurement: "1 teaspoon"
             }
         ],
@@ -353,39 +353,39 @@ export const recipes = [
         name: "Chinese Pepper Steak",
         ingredients: [
             {
-                item: "Beef Top Sirloin Steak",
+                item: 41,
                 measurement: "1 pound"
             },
             {
-                item: "Soy Sauce",
+                item: 22,
                 measurement: "1/4 cup"
             },
             {
-                item: "White Sugar",
+                item: 42,
                 measurement: "2 tablespoons"
             },
             {
-                item: "Cornstarch",
+                item: 54,
                 measurement: "2 tablespoons"
             },
             {
-                item: "Ground Ginger",
+                item: 43,
                 measurement: "1/2 teaspoon"
             },
             {
-                item: "Vegetable Oil",
+                item: 19,
                 measurement: "3 tablespoons"
             },
             {
-                item: "Red Onion",
+                item: 44,
                 measurement: "1-inch squares, chopped"
             },
             {
-                item: "Green Bell Pepper",
+                item: 45,
                 measurement: "1 count"
             },
             {
-                item: "Tomatoes",
+                item: 24,
                 measurement: "Chopped into wedges"
             }
         ],
@@ -424,59 +424,59 @@ export const recipes = [
         name: "Bibimbap (Rice with Mixed Vegetables)",
         ingredients: [
             {
-                item: "Cooked and Cooled Rice",
+                item: 4,
                 measurement: "2 cups"
             },
             {
-                item: "Sesame Oil",
+                item: 46,
                 measurement: "2 tablespoons"
             },
             {
-                item: "Carrot",
+                item: 47,
                 measurement: "1 cup, chopped into strips"
             },
             {
-                item: "Zucchini",
+                item: 48,
                 measurement: "1 cup, chopped into strips"
             },
             {
-                item: "Bean Sprouts",
+                item: 49,
                 measurement: "14 ounce"
             },
             {
-                item: "Bamboo Shoots",
+                item: 50,
                 measurement: "6 ounces"
             },
             {
-                item: "Mushrooms",
+                item: 51,
                 measurement: "4.5 ounce, sliced"
             },
             {
-                item: "Salt",
+                item: 9,
                 measurement: "1/8 teaspoon"
             },
             {
-                item: "Green Onions",
+                item: 25,
                 measurement: "1/3 Cup, sliced"
             },
             {
-                item: "Soy Sauce",
+                item: 22,
                 measurement: "2 tablespoons"
             },
             {
-                item: "Black Pepper",
+                item: 16,
                 measurement: "1/4 teaspoon"
             },
             {
-                item: "Butter",
+                item: 52,
                 measurement: "1 tablespoon"
             },
             {
-                item: "Eggs",
+                item: 53,
                 measurement: "3 count"
             },
             {
-                item: "Sweet Red Chili Sauce",
+                item: 30,
                 measurement: "3 tablespoons"
             }
         ],
@@ -512,68 +512,221 @@ export const recipes = [
 export const ingredients = [
     {
         label: "Potatoes",
-        value: "potato"
-    },
-    {
-        label: "White Onions",
-        value: "white onion"
-    },
-    {
-        label: "Garlic",
-        value: "garlic"
-    },
-    {
-        label: "Soy Sauce",
-        value: "soy sauce"
-    },
-    {
-        label: "Tomatoes",
-        value: "tomato"
-    },
-    {
-        label: "Thai Basil",
-        value: "basil"
-    },
-    {
-        label: "Ginger Root",
-        value: "ginger"
-    },
-    {
-        label: "Green Peas",
-        value: "pea"
-    },
-    {
-        label: "Sea Salt",
-        value: "salt"
-    },
-    {
-        label: "Lettuce",
-        value: "lettuce"
-    },
-    {
-        label: "Cabbage",
-        value: "cabbage"
-    },
-    {
-        label: "Eggs",
-        value: "egg"
-    },
-    {
-        label: "Cilantro",
-        value: "cilantro"
-    },
-    {
-        label: "Red Bell Peppers",
-        value: "red bell pepper"
-    },
-    {
-        label: "Green Onions",
-        value: "green onion"
+        value: 1
     },
     {
         label: "Spinach",
-        value: "spinach"
+        value: 2
+    },
+    {
+        label: "Canola Oil",
+        value: 3
+    },
+    {
+        label: "Rice",
+        value: 4
+    },
+    {
+        label: "Garlic",
+        value: 5
+    },
+    {
+        label: "Water",
+        value: 6
+    },
+    {
+        label: "Flaxseed Meal",
+        value: 7
+    },
+    {
+        label: "Baking Powder",
+        value: 8
+    },
+    {
+        label: "Salt",
+        value: 9
+    },
+    {
+        label: "All-Purpose Flour",
+        value: 10
+    },
+    {
+        label: "Rice Vinegar",
+        value: 11
+    },
+    {
+        label: "Fish Sauce",
+        value: 12
+    },
+    {
+        label: "Lime",
+        value: 13
+    },
+    {
+        label: "Palm Sugar",
+        value: 14
+    },
+    {
+        label: "Red Pepper Flakes",
+        value: 15
+    },
+    {
+        label: "Black Pepper",
+        value: 16
+    },
+    {
+        label: "Chicken Breast",
+        value: 17
+    },
+    {
+        label: "Fresh Rice Noodles",
+        value: 18
+    },
+    {
+        label: "Vegetable oil",
+        value: 19
+    },
+    {
+        label: "Yellow Onion",
+        value: 20
+    },
+    {
+        label: "Oyster Sauce",
+        value: 21
+    },
+    {
+        label: "Soy Sauce",
+        value: 22
+    },
+    {
+        label: "Red Bell Pepper",
+        value: 23
+    },
+    {
+        label: "Tomatoes",
+        value: 24
+    },
+    {
+        label: "Green Onions",
+        value: 25
+    },
+    {
+        label: "Thai Basil",
+        value: 26
+    },
+    {
+        label: "Extra-virgin Olive Oil",
+        value: 27
+    },
+    {
+        label: "Spanish Onion",
+        value: 28
+    },
+    {
+        label: "Lean Ground Beef",
+        value: 29
+    },
+    {
+        label: "Sweet Red Chili Sauce",
+        value: 30
+    },
+    {
+        label: "Ginger Root",
+        value: 31
+    },
+    {
+        label: "Serano Chile Pepper",
+        value: 32
+    },
+    {
+        label: "Cilantro",
+        value: 33
+    },
+    {
+        label: "Ground Cumin",
+        value: 34
+    },
+    {
+        label: "Ground Cayenne Pepper",
+        value: 35
+    },
+    {
+        label: "Ground Tumeric",
+        value: 36
+    },
+    {
+        label: "Green Peas",
+        value: 37
+    },
+    {
+        label: "Garam Masala",
+        value: 38
+    },
+    {
+        label: "Bucatini",
+        value: 39
+    },
+    {
+        label: "Pecorino Romano Cheese",
+        value: 40
+    },
+    {
+        label: "Beef Top Sirloin Steak",
+        value: 41
+    },
+    {
+        label: "White Sugar",
+        value: 42
+    },
+    {
+        label: "Ground Ginger",
+        value: 43
+    },
+    {
+        label: "Red Onion",
+        value: 44
+    },
+    {
+        label: "Green Bell Pepper",
+        value: 45
+    },
+    {
+        label: "Sesame Oil",
+        value: 46
+    },
+    {
+        label: "Carrot",
+        value: 47
+    },
+    {
+        label: "Zucchini",
+        value: 48
+    },
+    {
+        label: "Bean Sprouts",
+        value: 49
+    },
+    {
+        label: "Bamboo Shoots",
+        value: 50
+    },
+    {
+        label: "Mushrooms",
+        value: 51
+    },
+    {
+        label: "Butter",
+        value: 52
+    },
+    {
+        label: "Eggs",
+        value: 53
+    },
+    {
+        label: "Cornstarch",
+        value: 54
     }
+    
 ];
 
 export default ingredients;
