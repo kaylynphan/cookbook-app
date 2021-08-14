@@ -311,39 +311,43 @@
             "name": "Bucatini Cacio e Pepe (Roman sheep herder's Pasta",
             "ingredients": [
                 {
-                    "item": "",
-                    "measurement": ""
+                    "item": "Bucatini",
+                    "measurement": "1 pound, dry"
                 },
                 {
-                    "item": "",
-                    "measurement": ""
+                    "item": "Pecorino Romano cheese",
+                    "measurement": "2 cups, finely grated"
                 },
                 {
-                    "item": "",
-                    "measurement": ""
+                    "item": "Black pepper",
+                    "measurement": "1 1/2 tablespoon, freshly ground"
                 },
                 {
-                    "item": "",
-                    "measurement": ""
-                },
-                {
-                    "item": "",
-                    "measurement": ""
+                    "item": "Salt",
+                    "measurement": "1 teaspoon"
                 }
             ],
             "instructions": [
                 {
-                    "timer": ,
-                    "text": ""
+                    "timer": 8,
+                    "text": "Bring a large pot of water to a boil and add salt. Cook bucatini in the boiling water, stirring occasionally, until tender yet firm to the bite, 8 to 10 minutes."
                 },
                 {
-                    "timer": ,
-                    "text": ""
+                    "timer": -1,
+                    "text": "Place grated Pecorino Romano cheese into a large glass bowl and mix with a fork to make sure the cheese contains no lumps."
+                },
+                {
+                    "timer": -1,
+                    "text": "Once the bucatini are al dente, lift them out with a spaghetti fork or tongs and put them directly into the bowl with the cheese. Do not allow the water to drain too much."
+                },
+                {
+                    "timer": -1,
+                    "text": "Add one ladle of pasta water to the bowl. Stir the bucatini around until a cream has formed. Add more pasta water, little by little, until a thick cream has formed. Sprinkle freshly ground pepper over the pasta. Toss and serve immediately."
                 }
             ],
             "diets-safe": ["Vegan", "Vegetarian", "Pescaterian", "Lactose-free", "Gluten-free", "Dairy-free", "Kosher", "Halal"],
             "allergies-safe": ["Nuts", "Eggs", "Soy", "Fish"],
-            "cusine":
+            "cusine":"Italian"
         },
         {
             "id": 4,
