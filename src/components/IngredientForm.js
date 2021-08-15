@@ -1,19 +1,19 @@
 import React, { useState } from "react";
 import MultiSelect from "react-multi-select-component";
-import ingredients from './data';
+import ingredients from './ingredients';
 
 const IngredientForm = ({ onAdd }) => {
   const [selected, setSelected] = useState([]);
   const showSelectAll = false;
 
-  /*const addIngredients = (selected) => {
+  const addIngredients = (selected) => {
     //console.log(selected);
-  }*/
+  }
 
   const onSubmit = (e) => {
     e.preventDefault();
-
     onAdd(selected);
+
 
   }
 

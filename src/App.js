@@ -1,17 +1,19 @@
 import './App.css';
 import { render } from '@testing-library/react';
-import recipes from './components/data';
 import IngredientForm from './components/IngredientForm';
 import Sketch from 'react-p5';
-import RecipeResults from './components/RecipeResults';
-
-var chosenIngredients = [];
+import RecipeCard from './components/RecipeCard'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState } from 'react';
+import ingredients from './components/ingredients'
 
 const App = () => {
+
+  const [chosenIngredients, setChosenIngredients] = useState(ingredients);
   
   const addIngredients = (selectedIngredients) => {
     console.log(selectedIngredients);
-    chosenIngredients = selectedIngredients;
+    setChosenIngredients((prev) => selectedIngredients.slice(0));
   }
 
   let a = 300;
@@ -29,6 +31,7 @@ const App = () => {
   return (
     <div className = 'container'>
       <IngredientForm onAdd={addIngredients}/>
+      <RecipeCard chosen_ings={chosenIngredients} />
       <Sketch setup={setup} draw={draw} className="App" />
     </div>
   )
