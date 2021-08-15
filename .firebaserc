@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "fir-practice-ef1fc"
-  }
+    "default": "food-savour-6fcee",
+    "staging": "food-savour-6fcee"
+  },
+  "targets": {}
 }

@@ -1,24 +1,14 @@
 import React, { useState } from "react";
 import MultiSelect from "react-multi-select-component";
 import ingredients from './ingredients';
+import RecipeCard from './RecipeCard';
 
-const IngredientForm = ({ onAdd }) => {
+const IngredientForm = () => {
   const [selected, setSelected] = useState([]);
   const showSelectAll = false;
 
-  const addIngredients = (selected) => {
-    //console.log(selected);
-  }
-
-  const onSubmit = (e) => {
-    e.preventDefault();
-    onAdd(selected);
-
-
-  }
-
   return (
-    <form onSubmit={onSubmit}>
+    <div>
       <h1>What Ingredients Do You Have Today?</h1>
       <MultiSelect
         hasSelectAll={showSelectAll}
@@ -27,8 +17,9 @@ const IngredientForm = ({ onAdd }) => {
         onChange={setSelected}
         labelledBy="Select"
       />
-      <input type='submit' value='Add Ingredients' />
-    </form>
+      <h2>Recipes Recommended For You</h2>
+      <RecipeCard chosen_ings={selected} />
+    </div>
   );
 };
 

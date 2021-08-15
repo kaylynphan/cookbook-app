@@ -2,6 +2,7 @@ export const recipes = [
     {
         id: 0,
         name: "Vegan Spinach Bites",
+        image: "https://cdn.glitch.com/7aa80956-89ee-4d18-bf59-1c3fe25543b1%2Frcp1banner.png?v=1629022215581",
         ingredients: [
             {
                 item: 1,
@@ -102,6 +103,7 @@ export const recipes = [
     {
         id: 1,
         name: "Pad Kee Mow",
+        image: "https://cdn.glitch.com/7aa80956-89ee-4d18-bf59-1c3fe25543b1%2Frcp2banner.png?v=1629022217236",
         ingredients: [
             {
                 item: 11,
@@ -217,6 +219,7 @@ export const recipes = [
     {
         id: 2,
         name: "Keema Aloo (Ground beef and Potatoes)" ,
+        image: "https://cdn.glitch.com/7aa80956-89ee-4d18-bf59-1c3fe25543b1%2Frcp3banner.png?v=1629022222457",
         ingredients: [
             {
                 item: 27,
@@ -308,6 +311,7 @@ export const recipes = [
     {
         id: 3,
         name: "Bucatini Cacio e Pepe (Roman sheep herder's Pasta",
+        image: "https://cdn.glitch.com/7aa80956-89ee-4d18-bf59-1c3fe25543b1%2Frcp4banner.png?v=1629022225997",
         ingredients: [
             {
                 item: 39,
@@ -351,6 +355,7 @@ export const recipes = [
     {
         id: 4,
         name: "Chinese Pepper Steak",
+        image: "https://cdn.glitch.com/7aa80956-89ee-4d18-bf59-1c3fe25543b1%2Frcp5banner.png?v=1629022230749",
         ingredients: [
             {
                 item: 41,
@@ -422,6 +427,7 @@ export const recipes = [
     {
         id: 5,
         name: "Bibimbap (Rice with Mixed Vegetables)",
+        image: "https://cdn.glitch.com/7aa80956-89ee-4d18-bf59-1c3fe25543b1%2Frcp6banner.png?v=1629022234172",
         ingredients: [
             {
                 item: 4,

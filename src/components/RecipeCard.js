@@ -2,6 +2,8 @@ import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import PropTypes from 'prop-types';
 import recipes from './recipes';
+import { useState } from "react";
+import Sketch1 from "./Sketch1"
 
 const RecipeCard = ({chosen_ings}) => {
 
@@ -46,22 +48,32 @@ const RecipeCard = ({chosen_ings}) => {
         }
     }
 
+    const [chosenRecipe, setRecipe] = useState([]);
+
+    const pickRecipe = (id) => {
+        setRecipe(id);
+        console.log("Chosen recipe: " + id);
+    }
+
     const renderCard = (card, index) => {
         return (
-          <Card style={{ width: '18rem' }} key={index}>
-            <Card.Body>
-                <Card.Title>{card.name}</Card.Title>
-                <Card.Text>
-                    {card.cusine} Cusine
-                </Card.Text>
-                <Button variant="primary">Start Cooking</Button>
-            </Card.Body>
-          </Card>
+          <div>
+            <Card style={{ width: '40rem' }} key={index}>
+                <Card.Img variant="top" src={card.image}/>
+                <Card.Body>
+                    <Button onClick={() => pickRecipe(card.id)}>Start Cooking</Button>
+                </Card.Body>
+            </Card>
+          </div>
         )
     }
     return (
-        <div className="recipeCard">{cardInfo.map(renderCard)}</div>
+        <div>
+            <div className="recipeCard">{cardInfo.map(renderCard)}</div>
+            <Sketch1 recipe={chosenRecipe}></Sketch1>
+        </div>
+        
+
     )
 }
-
 export default RecipeCard;

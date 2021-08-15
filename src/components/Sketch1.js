@@ -1,5 +1,21 @@
 import Sketch from 'react-p5';
-const Sketch1 = () => {
+import PropTypes from 'prop-types';
+
+
+const Sketch1 = ({chosenRecipe}) => {
+
+    Sketch1.defaultProps = {
+        chosenRecipe: 0
+    }
+
+    Sketch1.propTypes = {
+        chosenRecipe: PropTypes.number
+    }
+
+    /*
+        0: preview
+        1: process
+    */
     let status = 0;
     let min, sec, frame, timerIsShown;
     let recipeID = 0;
