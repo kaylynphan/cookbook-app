@@ -19,22 +19,31 @@ const RecipeCard = ({chosen_ings}) => {
     let cardInfo = [];
 
     for (let recipe of recipes) {
-        if (match(recipe)) {
+        if (matchAll(recipe)) {
             cardInfo.push(recipe);
         }
     }
     console.log("Filtered recipes:");
     console.log(cardInfo);
 
-    function match(recipe) {
+
+    //returns true if all ingredients can be found in a recipe
+    function matchAll(recipe) {
         for (let chosen_ing of chosen_ings) {
-            for (let used_ing of recipe.ingredients) {
-                if (chosen_ing.value === used_ing.item) {
-                    return true;
-                }
+            if (!match(recipe, chosen_ing)) {
+                return false;
             }
         }
-        return false;
+        return true;
+    }
+
+    //returns true if the given ingredient can be found in the given recipe
+    function match(recipe, chosen_ing) {
+        for (let used_ing of recipe.ingredients) {
+            if (chosen_ing.value === used_ing.item) {
+                return true;
+            }
+        }
     }
 
     const renderCard = (card, index) => {

@@ -1,218 +1,218 @@
 export const ingredients = [
     {
-        label: "Potatoes",
+        label: "Potatoes 🥔",
         value: 1
     },
     {
-        label: "Spinach",
+        label: "Spinach 🥬",
         value: 2
     },
     {
-        label: "Canola Oil",
+        label: "Canola Oil 🥄",
         value: 3
     },
     {
-        label: "Rice",
+        label: "Rice 🍚",
         value: 4
     },
     {
-        label: "Garlic",
+        label: "Garlic 🧄",
         value: 5
     },
     {
-        label: "Water",
+        label: "Water 💧",
         value: 6
     },
     {
-        label: "Flaxseed Meal",
+        label: "Flaxseed Meal 🥣",
         value: 7
     },
     {
-        label: "Baking Powder",
+        label: "Baking Powder 🥖",
         value: 8
     },
     {
-        label: "Salt",
+        label: "Salt 🧂",
         value: 9
     },
     {
-        label: "All-Purpose Flour",
+        label: "All-Purpose Flour 🍞",
         value: 10
     },
     {
-        label: "Rice Vinegar",
+        label: "Rice Vinegar 🍙",
         value: 11
     },
     {
-        label: "Fish Sauce",
+        label: "Fish Sauce 🐟",
         value: 12
     },
     {
-        label: "Lime",
+        label: "Lime 🍋",
         value: 13
     },
     {
-        label: "Palm Sugar",
+        label: "Palm Sugar 🥥",
         value: 14
     },
     {
-        label: "Red Pepper Flakes",
+        label: "Red Pepper Flakes 🌶",
         value: 15
     },
     {
-        label: "Black Pepper",
+        label: "Black Pepper 🍴",
         value: 16
     },
     {
-        label: "Chicken Breast",
+        label: "Chicken Breast 🐓",
         value: 17
     },
     {
-        label: "Fresh Rice Noodles",
+        label: "Fresh Rice Noodles 🍜",
         value: 18
     },
     {
-        label: "Vegetable oil",
+        label: "Vegetable oil 🥗",
         value: 19
     },
     {
-        label: "Yellow Onion",
+        label: "Yellow Onion 🧅",
         value: 20
     },
     {
-        label: "Oyster Sauce",
+        label: "Oyster Sauce 🍲",
         value: 21
     },
     {
-        label: "Soy Sauce",
+        label: "Soy Sauce 🍣",
         value: 22
     },
     {
-        label: "Red Bell Pepper",
+        label: "Red Bell Pepper 🫑",
         value: 23
     },
     {
-        label: "Tomatoes",
+        label: "Tomatoes 🍅",
         value: 24
     },
     {
-        label: "Green Onions",
+        label: "Green Onions 🍲",
         value: 25
     },
     {
-        label: "Thai Basil",
+        label: "Thai Basil 🪴",
         value: 26
     },
     {
-        label: "Extra-virgin Olive Oil",
+        label: "Extra-virgin Olive Oil 🫒",
         value: 27
     },
     {
-        label: "Spanish Onion",
+        label: "Spanish Onion 🧅",
         value: 28
     },
     {
-        label: "Lean Ground Beef",
+        label: "Lean Ground Beef 🍔",
         value: 29
     },
     {
-        label: "Sweet Red Chili Sauce",
+        label: "Sweet Red Chili Sauce 🌶",
         value: 30
     },
     {
-        label: "Ginger Root",
+        label: "Ginger Root 🥢",
         value: 31
     },
     {
-        label: "Serano Chile Pepper",
+        label: "Serano Chile Pepper 🌶",
         value: 32
     },
     {
-        label: "Cilantro",
+        label: "Cilantro 🌱",
         value: 33
     },
     {
-        label: "Ground Cumin",
+        label: "Ground Cumin 🍛",
         value: 34
     },
     {
-        label: "Ground Cayenne Pepper",
+        label: "Ground Cayenne Pepper 🫔",
         value: 35
     },
     {
-        label: "Ground Tumeric",
+        label: "Ground Tumeric 🧂",
         value: 36
     },
     {
-        label: "Green Peas",
+        label: "Green Peas 🥗",
         value: 37
     },
     {
-        label: "Garam Masala",
+        label: "Garam Masala 🍛",
         value: 38
     },
     {
-        label: "Bucatini",
+        label: "Bucatini 🍝",
         value: 39
     },
     {
-        label: "Pecorino Romano Cheese",
+        label: "Pecorino Romano Cheese 🧀",
         value: 40
     },
     {
-        label: "Beef Top Sirloin Steak",
+        label: "Beef Top Sirloin Steak 🥩",
         value: 41
     },
     {
-        label: "White Sugar",
+        label: "White Sugar 🎂",
         value: 42
     },
     {
-        label: "Ground Ginger",
+        label: "Ground Ginger 🥢",
         value: 43
     },
     {
-        label: "Red Onion",
+        label: "Red Onion 🧅",
         value: 44
     },
     {
-        label: "Green Bell Pepper",
+        label: "Green Bell Pepper 🫑",
         value: 45
     },
     {
-        label: "Sesame Oil",
+        label: "Sesame Oil 🍙",
         value: 46
     },
     {
-        label: "Carrot",
+        label: "Carrot 🥕",
         value: 47
     },
     {
-        label: "Zucchini",
+        label: "Zucchini 🥒",
         value: 48
     },
     {
-        label: "Bean Sprouts",
+        label: "Bean Sprouts 🌱",
         value: 49
     },
     {
-        label: "Bamboo Shoots",
+        label: "Bamboo Shoots 🎍",
         value: 50
     },
     {
-        label: "Mushrooms",
+        label: "Mushrooms 🍄",
         value: 51
     },
     {
-        label: "Butter",
+        label: "Butter 🧈",
         value: 52
     },
     {
-        label: "Eggs",
+        label: "Eggs 🥚",
         value: 53
     },
     {
-        label: "Cornstarch",
+        label: "Cornstarch 🌽",
         value: 54
     }
     

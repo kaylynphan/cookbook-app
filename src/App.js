@@ -6,6 +6,9 @@ import RecipeCard from './components/RecipeCard'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import ingredients from './components/ingredients'
+import landingPage from './1-landing-page.jpg';
+import Sketch1 from './components/Sketch1';
+import Sketch2 from './components/Sketch2';
 
 const App = () => {
 
@@ -16,23 +19,15 @@ const App = () => {
     setChosenIngredients((prev) => selectedIngredients.slice(0));
   }
 
-  let a = 300;
-  let b = 300;
-  let setup = (p5, canvasParentRef) => {
-    //Canvas of size 1000x800 
-    let xyz = p5.createCanvas(800, 600).parent(canvasParentRef);
-  };
-  let draw = (p5) => {
-    p5.background("rgb(80%,80%,80%)");
-    p5.stroke(0);
-    p5.text("This window is where the recipe walkthrough will be", 20, 20);
-  };
-
   return (
     <div className = 'container'>
+      <img src={landingPage} alt='landing' className="landingScreen" />
+      <h2>Cater to Your Dietary Restrictions and Favorite Flavors</h2>
+      <Sketch2 className="sketch2" />
       <IngredientForm onAdd={addIngredients}/>
+      <h2>Recipes Recommended For You</h2>
       <RecipeCard chosen_ings={chosenIngredients} />
-      <Sketch setup={setup} draw={draw} className="App" />
+      <Sketch1 className="sketch1" />
     </div>
   )
 }

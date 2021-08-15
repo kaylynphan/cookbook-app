@@ -19,7 +19,7 @@ const IngredientForm = ({ onAdd }) => {
 
   return (
     <form onSubmit={onSubmit}>
-      <h1>Select Ingredients</h1>
+      <h1>What Ingredients Do You Have Today?</h1>
       <MultiSelect
         hasSelectAll={showSelectAll}
         options={ingredients}

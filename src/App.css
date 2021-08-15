@@ -37,3 +37,13 @@
     transform: rotate(360deg);
   }
 }
+
+.landingScreen {
+  width: 720px;
+  height: 1200px;
+}
+
+.container {
+  align-items: center;
+  background-color: #eff6ee;
+}
