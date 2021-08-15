@@ -24,7 +24,6 @@ const App = () => {
       <h2>Cater to Your Dietary Restrictions and Favorite Flavors</h2>
       <Sketch2 className="sketch2" />
       <IngredientForm />
-      <h2>Recipes Details</h2>
     </div>
   )
 }

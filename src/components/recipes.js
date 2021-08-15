@@ -3,6 +3,8 @@ export const recipes = [
         id: 0,
         name: "Vegan Spinach Bites",
         image: "https://cdn.glitch.com/7aa80956-89ee-4d18-bf59-1c3fe25543b1%2Frcp1banner.png?v=1629022215581",
+        overview: "",
+        instructions: "",
         ingredients: [
             {
                 item: 1,

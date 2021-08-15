@@ -39,12 +39,16 @@
 }
 
 .landingScreen {
-  width: 720px;
-  height: 1200px;
+  width: 900px;
+  height: 1500px;
 }
 
 .container {
   align-items: center;
+  background-color: #eff6ee;
+}
+
+.recipeCard {
   background-color: #eff6ee;
 }
 

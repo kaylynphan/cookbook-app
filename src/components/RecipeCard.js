@@ -58,7 +58,7 @@ const RecipeCard = ({chosen_ings}) => {
     const renderCard = (card, index) => {
         return (
           <div>
-            <Card style={{ width: '40rem' }} key={index}>
+            <Card style={{ width: '50rem' }} key={index}>
                 <Card.Img variant="top" src={card.image}/>
                 <Card.Body>
                     <Button onClick={() => pickRecipe(card.id)}>Start Cooking</Button>
@@ -70,7 +70,8 @@ const RecipeCard = ({chosen_ings}) => {
     return (
         <div>
             <div className="recipeCard">{cardInfo.map(renderCard)}</div>
-            <Sketch1 recipe={chosenRecipe}></Sketch1>
+            <h2>Recipes Details</h2>
+            <Sketch1></Sketch1>
         </div>
         
 
