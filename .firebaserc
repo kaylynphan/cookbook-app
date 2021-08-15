@@ -1,7 +1,8 @@
 {
   "projects": {
-    "default": "food-savour-6fcee",
-    "staging": "food-savour-6fcee"
+    "default": "food-savor-679e9",
+    "staging": "food-savor-679e9",
+    "deploy": "food-savor-679e9"
   },
   "targets": {}
 }
